@@ -80,6 +80,9 @@ Install development tools and ROS tools
    # install Cyclone DDS dependencies
    sudo apt install --no-install-recommends -y \
      libcunit1-dev
+   # install Eigen3 library and headers
+   sudo apt install --no-install-recommends -y \
+     libeigen3-dev
 
 .. _Foxy_linux-dev-get-ros2-code:
 
