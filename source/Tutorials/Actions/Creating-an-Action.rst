@@ -26,7 +26,7 @@ A *result* message is sent from an action server to an action client when a goal
 
 Say we want to define a new action "Fibonacci" for computing the `Fibonacci sequence <https://en.wikipedia.org/wiki/Fibonacci_number>`__.
 
-First, create a directory ``action`` in our ROS package.
+First, create a directory ``action`` in our ROS package at the ``action_tutorials`` directory.
 With your favorite editor, add the file ``action/Fibonacci.action`` with the following content:
 
 .. code-block:: bash
